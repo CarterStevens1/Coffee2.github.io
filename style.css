@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 102px;
+  padding-right: 60px;
+}
+
+img.logo {
+  margin-top: 17px;
+}
+
+.rightNav {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 14px;
+}
+
+.navText {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navText:not(:last-child) {
+  margin-right: 30px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 131px;
+  margin-right: 39px;
+}
+
+h2.topText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+  color: #5a3b2e;
+  margin-bottom: -35px;
+  margin-top: 15px;
+}
+
+h2.middleText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 87px;
+  color: #34221a;
+  margin-bottom: -35px;
+}
+
+p.bottomText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+  color: #606060;
+}
+
+.btn {
+  border: 2px solid #5a3b2e;
+  box-sizing: border-box;
+  background: #fff;
+  color: #5a3b2e;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  padding: 22px 33px;
+}
+
+.coffeeImage {
+  flex-grow: 3;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-Text {
+  width: 655px;
+  padding-left: 65px;
+}
+
+.top-about {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 65px;
+  color: #5a3b2e;
+}
+
+.middle-about {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 84px;
+  color: #34221a;
+}
+
+.about-desc {
+  font-size: 22px;
+  line-height: 40px;
+  /* or 182% */
+
+  letter-spacing: 0.045em;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.about-image::before {
+  content: "";
+  background: url("images/image\ 2.png");
+  background-repeat: no-repeat;
+  top: 40px;
+  left: -40px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
