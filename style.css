@@ -147,7 +147,7 @@ p.bottomText {
 .banner {
   background: url(images/image\ 4.png);
   background-repeat: no-repeat;
-
+  background-size: cover;
   height: 360px;
   display: flex;
   flex-direction: column;
@@ -226,14 +226,16 @@ p.bottomText {
 
 .footer {
   display: flex;
+  justify-content: center;
 }
 .leftFooter {
   background: url(images/BG-1.png);
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 776px;
+  width: 100%;
 }
 
 .footerDesc {
@@ -267,7 +269,7 @@ img.Footer-coffeeImage {
 
 .rightFooter {
   background: #916041;
-  width: 727px;
+  width: 100%;
   height: 625px;
   color: #fff;
   display: flex;
